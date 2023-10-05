@@ -16,7 +16,7 @@ cachetools==4.2.4
     # via
     #   -r requirements.in
     #   google-auth
-certifi==2022.5.18.1
+certifi==2023.7.22
     # via
     #   -r requirements.in
     #   requests
@@ -74,13 +74,7 @@ idna==3.3
     #   -r requirements.in
     #   requests
 importlib-metadata==4.11.4
-    # via
-    #   -r requirements.in
-    #   click
-    #   flask
-    #   pluggy
-    #   pytest
-    #   sqlalchemy
+    # via -r requirements.in
 iniconfig==1.1.1
     # via pytest
 itsdangerous==2.1.2
@@ -209,13 +203,9 @@ six==1.16.0
 sqlalchemy==1.4.36
     # via -r requirements.in
 tomli==2.0.1
-    # via
-    #   coverage
-    #   pytest
+    # via pytest
 typing-extensions==4.2.0
-    # via
-    #   importlib-metadata
-    #   opentelemetry-sdk
+    # via opentelemetry-sdk
 urllib3==1.26.9
     # via
     #   -r requirements.in
